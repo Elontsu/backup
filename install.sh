@@ -24,4 +24,4 @@ cat hypr/hyprland.conf > ~/.config/hypr/hyprland.conf
 
 chsh
 
-echo "Installing finished. Reboot your pc."
+echo "Installing finished. Now You can reboot your pc."
