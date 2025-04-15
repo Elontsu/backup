@@ -11,3 +11,17 @@ sudo n i lts
 sudo pacman -S steam
 # Добавить конфиги и смену shell'a.
 # Переместить скрипт в папку .config/ и там проинициализировать git с исключением ненужных конфигов
+
+cd
+mv kitty/ ~/.config/
+mv wofi/ ~/.config/
+mv vesktop/ ~/.config/vesktop
+mv fish/ ~/.config/
+mv fastfetch/ ~/.config/
+mv hypr/animation.conf ~/.config/hypr/
+mv hypr/windowsrules.conf ~/.config/hypr/
+cat hypr/hyprland.conf > ~/.config/hypr/hyprland.conf
+
+chsh
+
+echo "Installing finished. Reboot your pc."
