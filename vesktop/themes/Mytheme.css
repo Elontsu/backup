@@ -1,0 +1,19 @@
+/* :root {
+  --background: #f00;
+} */
+
+.base_c48ade {
+  display: grid !important;
+  display: grid;
+  grid-template-columns: [start] min-content [guildsEnd] min-content [channelsEnd] 1fr [end];
+  grid-template-rows: [top] var(--custom-app-top-bar-height) [titleBarEnd] min-content [noticeEnd] 1fr [end];
+  grid-template-areas:
+    "titleBar titleBar titleBar"
+    "guildsList notice notice"
+    "guildsList channelsList page" !important;
+}
+
+/* .bar_c38106 {
+  display: none;
+  height: 0 !important;
+} */
