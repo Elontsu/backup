@@ -8,7 +8,7 @@ sudo pacman -S telegram-descktop firefox spotify-launcher btop zip unzip ttf-dej
 yay -S vesktop zen-browser-bin visual-studio-code-bin hyprshot
 sudo npm install --global n typescipt
 sudo n i lts
-sudo pacman -S steam
+# sudo pacman -S steam
 # Добавить конфиги и смену shell'a.
 # Переместить скрипт в папку .config/ и там проинициализировать git с исключением ненужных конфигов
 
@@ -22,6 +22,6 @@ mv hypr/animation.conf ~/.config/hypr/
 mv hypr/windowsrules.conf ~/.config/hypr/
 cat hypr/hyprland.conf > ~/.config/hypr/hyprland.conf
 
-chsh
+# chsh
 
-echo "Installing finished. Now You can reboot your pc."
+# echo "Installing finished. Now You can reboot your pc."
